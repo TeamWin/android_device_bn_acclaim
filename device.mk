@@ -19,6 +19,10 @@ $(call inherit-product, $(COMMON_FOLDER)/common.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_FOLDER)/overlay/aosp
 
+# kernel
+PRODUCT_COPY_FILES += \
+	$(DEVICE_FOLDER)/kernel:kernel
+
 # rootfs
 PRODUCT_COPY_FILES += \
 	$(DEVICE_FOLDER)/root/init.acclaim.rc:root/init.acclaim.rc \

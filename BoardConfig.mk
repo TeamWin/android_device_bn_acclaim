@@ -83,8 +83,8 @@ TARGET_PROVIDES_RELEASETOOLS := true
 TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := $(DEVICE_FOLDER)/releasetools/ota_from_target_files
 TARGET_RELEASETOOL_IMG_FROM_TARGET_SCRIPT := $(DEVICE_FOLDER)/releasetools/img_from_target_files
 
-TARGET_KERNEL_CONFIG := cyanogenmod_acclaim_defconfig
-TARGET_KERNEL_SOURCE := kernel/bn/acclaim
+#TARGET_KERNEL_CONFIG := cyanogenmod_acclaim_defconfig
+#TARGET_KERNEL_SOURCE := kernel/bn/acclaim
 
 # wlan build
 WLAN_MODULES:
